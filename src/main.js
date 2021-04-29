@@ -7,7 +7,7 @@ const URL =
 
 async function main() {
   // Get html from website
-  const response = await axios.get(url, { responseType: 'arraybuffer' })
+  const response = await axios.get(URL, { responseType: 'arraybuffer' })
   const data = iconv.decode(response.data, 'TIS-620')
 
   // Create cheerio root
