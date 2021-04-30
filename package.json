@@ -5,6 +5,7 @@
     "iconv-lite": "^0.6.2"
   },
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node src/main.js",
+    "than": "node src/teacher.js"
   }
 }
